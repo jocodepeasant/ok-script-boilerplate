@@ -24,8 +24,8 @@ class MyOneTimeTask(MyBaseTask):
                                       'options': ['第一', '第二', '第3']}
 
     def run(self):
-        self.log_info('日常任务开始运行!', notify=True)
         self.click(0.47, 0.60)
+        self.log_info('日常任务开始运行!', notify=True)
         self.sleep(1)
         self.run_for_5()
         self.log_info('日常任务运行完成!', notify=True)

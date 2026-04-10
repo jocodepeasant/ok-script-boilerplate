@@ -4,7 +4,7 @@
 #
 #    pip-compile requirements.in
 #
-ok-script==1.0.16
+ok-script==1.0.26
     # via -r requirements.in
 onnxocr-ppocrv4==0.0.5
     # via -r requirements.in
@@ -75,5 +75,5 @@ typing-extensions==4.14.1
     # via ok-script
 urllib3==2.5.0
     # via requests
-#adbutils==2.11.0
+adbutils==2.11.0
 #如果支持模拟器则添加这个

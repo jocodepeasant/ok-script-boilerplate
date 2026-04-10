@@ -1,4 +1,5 @@
 import re
+from time import sleep
 
 from ok import BaseTask
 
